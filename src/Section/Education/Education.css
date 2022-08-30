@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+.edu-exp {
+  background: #4C3575;
+  margin: 1rem 1rem;
+  padding: 2rem 5rem;
+  border-radius: .5rem;
+  color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+}
+
+.edu-wrapper h2 {
+  text-decoration: underline;
+  margin-bottom: -.6rem;
+}
+
+.education {
+  display: flex;
+  margin: 1.5rem 0;
+}
+
+.education img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-right: 1rem;
+  filter: grayscale(100%);
+  transition: filter .3s;
+}
+
+.education img:hover {
+  filter: grayscale(0);
+}
+
+@media only screen and (max-width: 600px) {
+  .edu-exp {
+    padding: 2rem 2.5rem;
+  }
+}

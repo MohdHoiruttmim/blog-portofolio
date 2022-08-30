@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+#profilePic {
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.Profile {
+  background: #4C3575;
+  margin: 1rem 1rem;
+  padding: 2rem 5rem;
+  border-radius: .5rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag svg{
+  width: 1rem;
+  color: #fafafa;
+  margin-right:.4rem;
+}
+
+.tag {
+  display: flex;
+  color: #fafafa;
+  border: .1rem solid #7858A6;
+  width: fit-content;
+  padding: .1rem .7rem;
+  border-radius: 12px;
+  margin-right: .5rem;
+}
+
+.tag svg,
+.white {
+  filter: brightness(0) invert(1);
+}
+
+.micro-info span svg {
+  width: 13px;
+}
+
+.describe,
+.tags,
+.connect {
+  color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 1rem;
+}
+
+.connect h2 {
+  text-decoration: underline;
+}
+
+.icon a {
+  display: inline-block;
+}
+
+.white {
+  width: 1.4rem;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    text-align: center;
+  }
+
+  .Profile {
+    padding: 2rem 2.5rem;
+  }
+}

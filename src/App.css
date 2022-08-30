@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #371B58;
+}
+
+@media only screen and (min-width: 600px) {
+  p {
+    font-size: 18px;
+  };
+}
